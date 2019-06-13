@@ -1,0 +1,155 @@
+{% extends 'base.html' %}
+{% load custom_tag %}
+
+{% block page-header %}
+<div class="row">
+    <div class="col-md-12 header-wrapper-without-border">
+        <h1>Search Results</h1>
+    </div>
+</div>
+<!--<form method="get" action="/search/">-->
+<!--    <table>-->
+<!--        {{ form.as_table }}-->
+<!--    </table>-->
+<!--</form>-->
+{% endblock %}
+
+{% block page-content %}
+{% if query %}
+<div class="row">
+    <div class="col-md-12 header-wrapper">
+        <div class="sub-header-wrapper">
+            <h2 class="sub-header-rev">{{ paginator.object_list|length }} results</h2>
+        </div>
+        <div class="nav_wrapper">
+            <ul class="nav nav-tabs nav-margin-rev">
+                <li class="{% if sort_by == '' %}active{% endif %}">
+                    {% build_sort_by_link 'relevance' query form %}
+                </li>
+                <li class="{% if sort_by == 'vote' %}active{% endif %}">
+                    {% build_sort_by_link 'vote' query form 'vote' %}
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+{% for result in page.object_list %}
+<div class="row row-wrapper">
+    {% if result.content_type == "websearch.question" %}
+    <div class="col-md-1 stats">
+        <div style="margin-bottom: 5px">
+            <div class="status-num">{{ result.object.vote }}</div>
+            <div class="small">votes</div>
+        </div>
+        <div style="margin-bottom: 5px">
+            {% if result.object.accepted %}
+            <div class="answer-accepted">
+                <div class="status-num">{{ result.object.answer_num }}</div>
+                <span class="small">answers</span>
+            </div>
+            {% else %}
+            <div class="answer-not-accepted">
+                <div class="status-num">{{ result.object.answer_num }}</div>
+                <span class="small">answers</span>
+            </div>
+            {% endif %}
+        </div>
+        <div>
+            <div>{{ result.object.viewed }}</div>
+            <div class="small">views</div>
+        </div>
+    </div>
+    <div class="col-md-11 summary">
+        <h3 class="summary-h3">
+            <a href="{% url 'detail' result.object.id %}#{{result.object.id}}">
+                Q: {{ result.object.title}}
+            </a>
+        </h3>
+        <div class="summary-description">{{ result.object.content }}</div>
+        <div class="summary-tag">
+            {% for tag in result.object.tag_list %}
+            <span class="label label-info">{{ tag }}</span>
+            {% endfor %}
+        </div>
+        {% if result.object.asked_user.name or result.object.asked_user.time %}
+        <div class="summary-user">
+            {% if result.object.asked_user.name and result.object.asked_user.time %}
+            {% if result.object.asked_user.link %}
+            asked <a href="https://www.stackoverflow.com{{result.object.asked_user.link}}">{{result.object.asked_user.name}}</a>
+            at {{result.object.asked_user.time}}
+            {% else %}
+            asked {{result.object.asked_user.name}} at {{result.object.asked_user.time}}
+            {% endif %}
+            {% elif result.object.asked_user.name %}
+            {% if result.object.asked_user.link %}
+            asked <a href="https://www.stackoverflow.com{{result.object.asked_user.link}}">{{result.object.asked_user.name}}</a>
+            {% else %}
+            asked {{result.object.asked_user.name}}
+            {% endif %}
+            {% elif result.object.asked_user.time %}
+            asked at {{result.object.asked_user.time}}
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+    {% elif result.content_type == "websearch.answer" %}
+    <div class="col-md-1 stats">
+        <div>
+            <div class="status-num">{{ result.object.vote }}</div>
+            <div class="small">votes</div>
+        </div>
+    </div>
+    <div class="col-md-11 summary">
+        <h3 class="summary-h3">
+            <a href="{% url 'detail' result.object.rid %}#{{result.object.id}}">
+                A: {{result.object.title}}
+            </a>
+        </h3>
+        <div class="summary-description">{{ result.object.content }}</div>
+        {% if result.object.answered_user.name or result.object.answered_user.time %}
+        <div class="summary-user">
+            {% if result.object.answered_user.name and result.object.answered_user.time %}
+            {% if result.object.answered_user.link %}
+            answered <a href="https://www.stackoverflow.com{{result.object.answered_user.link}}">{{result.object.answered_user.name}}</a>
+            at {{result.object.answered_user.time}}
+            {% else %}
+            answered {{result.object.answered_user.name}} at {{result.object.answered_user.time}}
+            {% endif %}
+            {% elif result.object.answered_user.name %}
+            {% if result.object.answered_user.link %}
+            answered <a href="https://www.stackoverflow.com{{result.object.answered_user.link}}">{{result.object.answered_user.name}}</a>
+            {% else %}
+            answered {{result.object.answered_user.name}}
+            {% endif %}
+            {% elif result.object.answered_user.time %}
+            answered at {{result.object.answered_user.time}}
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+    {% endif %}
+</div>
+{% empty %}
+<p>No results found.</p>
+{% endfor %}
+
+{% if page.has_previous or page.has_next %}
+<nav aria-label="Page navigation">
+    <ul class="pagination">
+        {% if page.has_previous %}
+        {% prev_or_next_page 'prev' page.previous_page_number query form sort_by %}
+        {% endif %}
+        {% for page_num in paginator.page_range %}
+        {% circle_page page.number page_num query form sort_by %}
+        {% endfor %}
+        {% if page.has_next %}
+        {% prev_or_next_page 'next' page.next_page_number query form sort_by %}
+        {% endif %}
+    </ul>
+</nav>
+{% endif %}
+{% else %}
+{# Show some example queries to run, maybe query syntax, something else? #}
+{% endif %}
+{% endblock %}

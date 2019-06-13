@@ -1,0 +1,9 @@
+scrapy
+fake-useragent
+requests
+django
+django-haystack
+whoosh
+beautifulsoup4
+nltk
+whitenoise

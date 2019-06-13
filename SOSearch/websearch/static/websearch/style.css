@@ -1,0 +1,161 @@
+body {
+  height: 100%;
+  padding-top: 50px;
+}
+
+.header-wrapper {
+  padding: 0 0 0 24px;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-wrapper-without-border {
+  padding: 0 0 0 24px;
+  margin-bottom: 1.5em;
+}
+
+.row-wrapper {
+  padding: 12px 0 12px 0;
+  border-bottom: 1px solid #eff0f1;
+}
+
+.stats {
+  text-align: center;
+  padding: 0 20px 0 20px;
+}
+
+.answer-accepted {
+  padding: 7px 0 5px;
+  border-radius: 3px;
+  background-color: #5fba7d;
+  color: #FFF;
+}
+
+.answer-not-accepted {
+  padding: 7px 0 5px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  border-color: rgba(69,161,99,0.5);
+  color: #45A163;
+}
+
+.status-num {
+  font-size: 20px;
+  line-height: normal;
+  font-weight: normal;
+}
+
+.summary-h3 {
+  margin-top: 0;
+}
+
+.summary-description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.summary-tag {
+  float: left;
+}
+
+.summary-user {
+  float: right;
+}
+
+/* stats related */
+
+.vote-mark {
+  font-size: 28px;
+}
+
+.vote-num {
+  font-size: 20px;
+}
+
+.star-mark {
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.star-num {
+  font-size: 12px;
+}
+
+.accepted-mark {
+  padding-top: 10px;
+  font-size: 24px;
+}
+
+.user-block-wrapper {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.user-block {
+  margin-left: 15px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+}
+
+.question-status-wrapper {
+  margin-top: 10px;
+  background-color: #fff7e5;
+}
+
+.comment-block-wrapper {
+  margin-top: 10px;
+}
+
+.comment-row-wrapper {
+  padding: 6px 6px 6px 6px;
+  border-top: 1px solid #eff0f1;
+}
+
+.side-question-header {
+  margin-top: 20px;
+}
+
+.side-question-block {
+  margin-bottom: 10px;
+}
+
+.sub-header-wrapper {
+  float: left;
+}
+
+.sub-header-rev {
+  margin: 0;
+}
+
+.nav_wrapper {
+  float: right;
+}
+
+.nav-margin-rev {
+  margin: -1px;
+}
+
+.main_wrapper {
+  min-height: 100%;
+}
+
+.main_container {
+  overflow:auto;
+  padding-bottom:100px;
+}
+
+.footer {
+  position: relative;
+  margin-top: -100px;
+  height: 100px;
+  clear:both;
+  padding-top:20px;
+}
+
+.answer_wrapper {
+  margin-top: 20px;
+}

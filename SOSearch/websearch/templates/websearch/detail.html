@@ -1,0 +1,270 @@
+{% extends 'base.html' %}
+{% load custom_tag %}
+
+{% block page-header %}
+<div class="row">
+    <div class="col-md-12 header-wrapper">
+        <h1><a href="https://www.stackoverflow.com{{question.link}}">{{ question.title }}</a></h1>
+    </div>
+</div>
+{% endblock %}
+
+{% block page-content %}
+<div class="row">
+    <div class="col-md-9">
+        <div class="row">
+            <div class="col-md-2 stats">
+                {% if question.vote >= 0 %}
+                <div class="vote-mark">
+                    <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+                </div>
+                {% else %}
+                <div class="vote-mark">
+                    <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>
+                </div>
+                {% endif %}
+                <div class="vote-num">
+                    {{ question.vote }}
+                </div>
+                <div class="star-mark">
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                </div>
+                <div class="star-num">
+                    {{question.star }}
+                </div>
+            </div>
+            <div id="{{ question.id }}" class="col-md-10">
+                <p>{{ question.content }}</p>
+                <div>
+                    {% for tag in question.tag_list %}
+                    <span class="label label-info">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+                {% if question.users %}
+                <div class="user-block-wrapper">
+                    {% for user in question.users %}
+                    <div class="user-block">
+                        <div>
+                            {% if user.action %}
+                            {% if user.revision %}
+                            <a href="https://stackoverflow.com{{user.revision}}">{{ user.action }}</a>
+                            {% else %}
+                            {{ user.action }}
+                            {% endif %}
+                            {% endif %}
+                            {% if user.name %}
+                            {% if user.action %}
+                            by
+                            {% endif %}
+                            {% if user.link %}
+                            <a href="https://stackoverflow.com{{user.link}}">{{ user.name }}</a>
+                            {% else %}
+                            {{ user.name }}
+                            {% endif %}
+                            {% endif %}
+                        </div>
+                        {% if user.time %}
+                        <div>
+                            at {{ user.time }}
+                        </div>
+                        {% endif %}
+                        {% if user.reputation or user.gold or user.silver or user.bronze %}
+                        <div>
+                            {{user.reputation}} {{user.gold}} {{user.silver}} {{user.bronze}}
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+                {% if question.status %}
+                <div class="question-status-wrapper">
+                    {{ question.status }}}
+                </div>
+                {% endif %}
+                {% if question.comments %}
+                <div class="comment-block-wrapper">
+                    {% for comment in question.comments %}
+                    <div class="row comment-row-wrapper">
+                        <div class="col-md-1">
+                            {{ comment.score }}
+                        </div>
+                        <div class="col-md-11">
+                            {{ comment.content }}
+                            {% if comment.user or comment.time %}
+                            -
+                            {% if comment.user_href %}
+                            <a href="https://www.stackoverflow.com{{ comment.user_href }}">{{ comment.user }}</a>
+                            {% else %}
+                            {{ comment.user }}
+                            {% endif %}
+                            {% if comment.time %}
+                            at {{ comment.time }}
+                            {% endif %}
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        <div class="answer_wrapper">
+            <div class="row">
+                <div class="col-md-12 header-wrapper">
+                    <div class="sub-header-wrapper">
+                        <h2 class="sub-header-rev">{{ question.answers|length }} Answers</h2>
+                    </div>
+                    <div class="nav_wrapper">
+                        <ul class="nav nav-tabs nav-margin-rev">
+                            <li class="{% if sort_by == 'vote' %}active{% endif %}">
+                                {% build_sort_by_link 'vote' sort_by='vote' %}
+                            </li>
+                            <li class="{% if sort_by == 'comments' %}active{% endif %}">
+                                {% build_sort_by_link 'comments' sort_by='comments' %}
+                            </li>
+                            <li class="{% if sort_by == 'time' %}active{% endif %}">
+                                {% build_sort_by_link 'time' sort_by='time' %}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            {% for answer in question.answers %}
+            <div class="row row-wrapper">
+                <div class="col-md-2 stats">
+                    {% if answer.vote >= 0 %}
+                    <div class="vote-mark">
+                        <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+                    </div>
+                    {% else %}
+                    <div class="vote-mark">
+                        <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>
+                    </div>
+                    {% endif %}
+                    <div class="vote-num">
+                        {{ answer.vote }}
+                    </div>
+                    {% if answer.accepted == 1 %}
+                    <div class="accepted-mark">
+                        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                    </div>
+                    {% endif %}
+                </div>
+                <div id="{{ answer.id }}" class="col-md-10">
+                    <p>{{answer.content}} </p>
+                    {% if answer.users %}
+                    <div class="user-block-wrapper">
+                        {% for user in answer.users %}
+                        <div class="user-block">
+                            <div>
+                                {% if user.action %}
+                                {% if user.revision %}
+                                <a href="https://stackoverflow.com{{user.revision}}">{{ user.action }}</a>
+                                {% else %}
+                                {{ user.action }}
+                                {% endif %}
+                                {% endif %}
+                                {% if user.name %}
+                                {% if user.action %}
+                                by
+                                {% endif %}
+                                {% if user.link %}
+                                <a href="https://stackoverflow.com{{user.link}}">{{ user.name }}</a>
+                                {% else %}
+                                {{ user.name }}
+                                {% endif %}
+                                {% endif %}
+                            </div>
+                            {% if user.time %}
+                            <div>
+                                at {{ user.time }}
+                            </div>
+                            {% endif %}
+                            {% if user.reputation or user.gold or user.silver or user.bronze %}
+                            <div>
+                                {{user.reputation}} {{user.gold}} {{user.silver}} {{user.bronze}}
+                            </div>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                    {% if answer.comments %}
+                    <div class="comment-block-wrapper">
+                        {% for comment in answer.comments %}
+                        <div class="row comment-row-wrapper">
+                            <div class="col-md-1">
+                                {{ comment.score }}
+                            </div>
+                            <div class="col-md-11">
+                                {{ comment.content }}
+                                {% if comment.user or comment.time %}
+                                -
+                                {% if comment.user_href %}
+                                <a href="https://www.stackoverflow.com{{ comment.user_href }}">{{ comment.user }}</a>
+                                {% else %}
+                                {{ comment.user }}
+                                {% endif %}
+                                {% if comment.time %}
+                                at {{ comment.time }}
+                                {% endif %}
+                                {% endif %}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div>asked: {{ question.asked }}</div>
+        <div>viewed: {{ question.viewed }}</div>
+        <div>active: {{ question.active }}</div>
+        {% if question.linked_questions %}
+        <div class="side-question-header">
+            <h4>Linked Questions</h4>
+        </div>
+        {% endif %}
+        {% for linked_question in question.linked_questions %}
+        <div class="side-question-block">
+            {% if linked_question.accepted %}
+            <span class="label label-success">{{ linked_question.vote}}</span>
+            {% else %}
+            <span class="label label-default">{{ linked_question.vote}}</span>
+            {% endif %}
+            {% if linked_question.link %}
+            <a href="https://www.stackoverflow.com{{linked_question.link}}"> {{ linked_question.title}} </a>
+            {% else %}
+            {{ linked_question.title}}
+            {% endif %}
+        </div>
+        {% endfor %}
+        {% if question.related_questions %}
+        <div class="side-question-header">
+            <h4>Related Questions</h4>
+        </div>
+        {% endif %}
+        {% for related_question in question.related_questions %}
+        <div class="side-question-block">
+            {% if related_question.accepted %}
+            <span class="label label-success">{{ related_question.vote}}</span>
+            {% else %}
+            <span class="label label-default">{{ related_question.vote}}</span>
+            {% endif %}
+            {% if related_question.link %}
+            <a href="https://www.stackoverflow.com{{related_question.link}}"> {{ related_question.title}} </a>
+            {% else %}
+            {{ related_question.title}}
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+{% endblock %}
+

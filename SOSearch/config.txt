@@ -1,0 +1,20 @@
+[DEFAULT]
+db_path = test_db.sqlite3
+k1 = 1.5
+b = 0.75
+n = 4999
+avg_l = 400.2229020979021
+
+[QUESTION]
+db_path = test_db.sqlite3
+k1 = 1.5
+b = 0.75
+n = 4999
+avg_l = 368.20484096819365
+
+[ANSWER]
+db_path = test_db.sqlite3
+k1 = 1.5
+b = 0.75
+n = 6055
+avg_l = 190.71081750619322

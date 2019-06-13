@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--    <link rel="icon" href="../../favicon.ico">-->
+
+    <title>SOSearch</title>
+
+    {% load static %}
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'websearch/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{% static 'websearch/style.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+{% load custom_tag %}
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{% url 'index' %}">SOSearch</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <form class="navbar-form navbar-left" action="/search/">
+                <div class="form-group">
+                    <input id="id_q" class="form-control" style="min-width: 500px" type="search" name="q"
+                           value="{{ query }}">
+                </div>
+                <!--                <input type="submit" value="Search">-->
+                <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Search Tools<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-header">Result type</li>
+                        <li role="separator" class="divider"></li>
+                        <li>{% build_dropdown_link 1 "Both Q & A" query %}</li>
+                        <li>{% build_dropdown_link 2 "Only Question" query %}</li>
+                        <li>{% build_dropdown_link 3 "Only Answer" query %}</li>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+<div class="main_wrapper">
+    <div class="container main_container clear-top">
+        {% block page-header %}{% endblock %}
+        {% block page-content %}{% endblock %}
+    </div><!-- /.container -->
+</div>
+
+<footer class="panel-footer footer">
+    <div class="container">
+        <div>Designed and built with all the love in the world by Fuming Zhang.</div>
+        <div>Powered with Django and Bootstrap.</div>
+    </div>
+</footer>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="{% static 'websearch/bootstrap/js/jquery-3.4.1.min.js' %}"></script>
+<script>
+    window.jQuery || document.write('<script src="{% static "websearch/bootstrap/js/jquery-3.4.1.min.js" %}"><\/script>')
+</script>
+<script src="{% static 'websearch/bootstrap/js/bootstrap.min.js' %}"></script>
+<script>
+    (function (window, undefined) {
+        window.onload = function () {
+            scrollToAnchor();
+        };
+
+        window.onhashchange = function () {
+            scrollToAnchor();
+        };
+
+        function scrollToAnchor() {
+            var hash = getHash();
+            if (hash === '')
+                return;
+            var anchorDom = document.getElementById(hash);
+            var anchorScrollTop = anchorDom.offsetTop + 60;
+            var path = getPath();
+            if (path === hash)
+                anchorScrollTop = 10;
+            $('html,body').animate({
+                scrollTop: anchorScrollTop
+            }, 500);
+        }
+
+        function getHash() {
+            return window.location.hash.substring(1);
+        }
+
+        function getPath() {
+            var path_length = window.location.pathname.length;
+            return window.location.pathname.substring(11, path_length - 1);
+        }
+    })(window);
+</script>
+</body>
+</html>

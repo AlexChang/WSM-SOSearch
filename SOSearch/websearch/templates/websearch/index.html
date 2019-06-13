@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+{% load custom_tag %}
+
+{% block page-header %}
+<div class="row">
+    <div class="col-md-12 header-wrapper-without-border">
+        <h1>All Questions</h1>
+    </div>
+</div>
+{% endblock %}
+
+{% block page-content %}
+{% if question_list %}
+<div class="row">
+    <div class="col-md-12 header-wrapper">
+        <div class="sub-header-wrapper">
+            <h2 class="sub-header-rev">{{ question_list.paginator.object_list|length }} Questions</h2>
+        </div>
+        <div class="nav_wrapper">
+            <ul class="nav nav-tabs nav-margin-rev">
+                <li class="{% if sort_by == 'viewed' %}active{% endif %}">
+                    {% build_sort_by_link 'view' sort_by='viewed' %}
+                </li>
+                <li class="{% if sort_by == 'vote' %}active{% endif %}">
+                    {% build_sort_by_link 'vote' sort_by='vote' %}
+                </li>
+                <li class="{% if sort_by == 'asked' %}active{% endif %}">
+                    {% build_sort_by_link 'time' sort_by='asked' %}
+                </li>
+                <li class="{% if sort_by == 'star' %}active{% endif %}">
+                    {% build_sort_by_link 'star' sort_by='star' %}
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% for question in question_list %}
+<div class="row row-wrapper">
+    <div class="col-md-1 stats">
+        <div style="margin-bottom: 5px">
+            <div class="status-num">{{ question.vote }}</div>
+            <div class="small">votes</div>
+        </div>
+        <div style="margin-bottom: 5px">
+            <div>
+                {% if question.accepted %}
+                <div class="answer-accepted">
+                    <div class="status-num">{{ question.answer_num }}</div>
+                    <span class="small">answers</span>
+                </div>
+                {% else %}
+                <div class="answer-not-accepted">
+                    <div class="status-num">{{ question.answer_num }}</div>
+                    <span class="small">answers</span>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        <div>
+            <div>{{ question.viewed }}</div>
+            <div class="small">views</div>
+        </div>
+    </div>
+    <div class="col-md-11 summary">
+        <h3 class="summary-h3">
+            <a href="{% url 'detail' question.id %}#{{question.id}}">
+                {{ question.title }}
+            </a>
+        </h3>
+        <div class="summary-description">{{ question.content }}</div>
+        <div class="summary-tag">
+            {% for tag in question.tag_list %}
+            <span class="label label-info">{{ tag }}</span>
+            {% endfor %}
+        </div>
+        {% if question.asked_user.name or question.asked_user.time %}
+        <div class="summary-user">
+            {% if question.asked_user.name and question.asked_user.time %}
+            {% if question.asked_user.link %}
+            asked <a href="https://www.stackoverflow.com{{question.asked_user.link}}">{{question.asked_user.name}}</a>
+            at {{question.asked_user.time}}
+            {% else %}
+            asked {{question.asked_user.name}} at {{question.asked_user.time}}
+            {% endif %}
+            {% elif question.asked_user.name %}
+            {% if question.asked_user.link %}
+            asked <a href="https://www.stackoverflow.com{{question.asked_user.link}}">{{question.asked_user.name}}</a>
+            {% else %}
+            asked {{question.asked_user.name}}
+            {% endif %}
+            {% elif question.asked_user.time %}
+            asked at {{question.asked_user.time}}
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endfor %}
+<nav aria-label="Page navigation">
+    <ul class="pagination">
+        {% if question_list.has_previous %}
+        {% prev_or_next_page 'prev' question_list.previous_page_number sort_by=sort_by %}
+        {% endif %}
+        {% for page_num in question_list.paginator.page_range %}
+        {% circle_page question_list.number page_num sort_by=sort_by %}
+        {% endfor %}
+        {% if question_list.has_next %}
+        {% prev_or_next_page 'next' question_list.next_page_number sort_by=sort_by %}
+        {% endif %}
+    </ul>
+</nav>
+{% else %}
+<h1>No questions found!</h1>
+{% endif %}
+{% endblock %}

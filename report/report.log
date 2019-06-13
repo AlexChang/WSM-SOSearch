@@ -1,0 +1,568 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.11.2)  13 JUN 2019 22:38
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/zfmed/Desktop/WSM-SOSearch/report/report
+(c:/Users/zfmed/Desktop/WSM-SOSearch/report/report.tex
+LaTeX2e <2018-04-01> patch level 5
+(c:/texlive/2018/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpdimenC=\dimen104
+\@IEEEtrantmpcountA=\count80
+\@IEEEtrantmpcountB=\count81
+\@IEEEtrantmpcountC=\count82
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 503.
+(c:/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+-- Using IEEE Computer Society mode.
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen105
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen106
+\CLASSINFOnormalsizeunitybaselineskip=\dimen107
+\IEEEnormaljot=\dimen108
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <5.01874> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <5.01874> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <7.02625> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <7.02625> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <8.03> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <8.03> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <9.03374> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <9.03374> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <9.53561> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <9.53561> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <11.04124> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <11.04124> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12.045> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <12.045> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.06374> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <17.06374> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20.075> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <20.075> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.09> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <24.09> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1090.
+\IEEEquantizedlength=\dimen109
+\IEEEquantizedlengthdiff=\dimen110
+\IEEEquantizedtextheightdiff=\dimen111
+\IEEEilabelindentA=\dimen112
+\IEEEilabelindentB=\dimen113
+\IEEEilabelindent=\dimen114
+\IEEEelabelindent=\dimen115
+\IEEEdlabelindent=\dimen116
+\IEEElabelindent=\dimen117
+\IEEEiednormlabelsep=\dimen118
+\IEEEiedmathlabelsep=\dimen119
+\IEEEiedtopsep=\skip41
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@IEEEsubequation=\count87
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count88
+\c@table=\count89
+\@IEEEeqnnumcols=\count90
+\@IEEEeqncolcnt=\count91
+\@IEEEsubeqnnumrollback=\count92
+\@IEEEquantizeheightA=\dimen120
+\@IEEEquantizeheightB=\dimen121
+\@IEEEquantizeheightC=\dimen122
+\@IEEEquantizeprevdepth=\dimen123
+\@IEEEquantizemultiple=\count93
+\@IEEEquantizeboxA=\box26
+\@IEEEtmpitemindent=\dimen124
+\IEEEPARstartletwidth=\dimen125
+\c@IEEEbiography=\count94
+\@IEEEtranrubishbin=\box27
+) (c:/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (c:/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+) (c:/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (c:/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+) (c:/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip44
+\subfigcapskip=\skip45
+\subfigcaptopadj=\dimen128
+\subfigbottomskip=\skip46
+\subfigcapmargin=\dimen129
+\subfiglabelskip=\skip47
+\c@subfigure=\count95
+\c@lofdepth=\count96
+\c@subtable=\count97
+\c@lotdepth=\count98
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(c:/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip48
+\subfig@bottom=\skip49
+) (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen130
+)) (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen131
+) (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count99
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count100
+\leftroot@=\count101
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count102
+\DOTSCASE@=\count103
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen132
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count104
+\c@MaxMatrixCols=\count105
+\dotsspace@=\muskip10
+\c@parentequation=\count106
+\dspbrk@lvl=\count107
+\tag@help=\toks17
+\row@=\count108
+\column@=\count109
+\maxfields@=\count110
+\andhelp@=\toks18
+\eqnshift@=\dimen133
+\alignsep@=\dimen134
+\tagshift@=\dimen135
+\tagwidth@=\dimen136
+\totwidth@=\dimen137
+\lineht@=\dimen138
+\@envbody=\toks19
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (c:/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip53
+\thm@postskip=\skip54
+\thm@headsep=\skip55
+\dth@everypar=\toks26
+) (c:/texlive/2018/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
+ (c:/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count111
+\float@exts=\toks27
+\float@box=\box30
+\@float@everytoks=\toks28
+\@floatcapt=\box31
+) (c:/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks29
+\c@algorithm=\count112
+) (c:/texlive/2018/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count113
+\c@ALC@line=\count114
+\c@ALC@rem=\count115
+\c@ALC@depth=\count116
+\ALC@tlm=\skip56
+\algorithmicindent=\skip57
+) (c:/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen139
+\lightrulewidth=\dimen140
+\cmidrulewidth=\dimen141
+\belowrulesep=\dimen142
+\belowbottomsep=\dimen143
+\aboverulesep=\dimen144
+\abovetopsep=\dimen145
+\cmidrulesep=\dimen146
+\cmidrulekern=\dimen147
+\defaultaddspace=\dimen148
+\@cmidla=\count117
+\@cmidlb=\count118
+\@aboverulesep=\dimen149
+\@belowrulesep=\dimen150
+\@thisruleclass=\count119
+\@lastruleclass=\count120
+\@thisrulewidth=\dimen151
+) (c:/texlive/2018/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+No file report.aux.
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 377.
+LaTeX Font Info:    ... okay on input line 377.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 377.
+LaTeX Font Info:    ... okay on input line 377.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 377.
+LaTeX Font Info:    ... okay on input line 377.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 377.
+LaTeX Font Info:    ... okay on input line 377.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 377.
+LaTeX Font Info:    ... okay on input line 377.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 377.
+LaTeX Font Info:    ... okay on input line 377.
+-- Lines per column: 61 (exact).
+(c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count121
+\scratchdimen=\dimen152
+\scratchbox=\box32
+\nofMPsegments=\count122
+\nofMParguments=\count123
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count124
+\MPscratchDim=\dimen153
+\MPnumerator=\count125
+\makeMPintoPDFobject=\count126
+\everyMPtoPDFconversion=\toks31
+) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+ (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+ (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+ (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+ (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+ (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))) (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+ (c:/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 492.
+ (c:/texlive/2018/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 492.
+LaTeX Font Info:    Try loading font information for U+pzd on input line 492.
+ (c:/texlive/2018/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 492.
+
+Underfull \hbox (badness 2173) in paragraph at lines 492--492
+[]\OT1/ppl/m/it/8.03 Database Link: https://pan.baidu.com/s/1lCxzOB9GWIRqG1L4Zf8eYg
+ []
+
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <11.04124> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 520.
+LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <11.04124> not available
+(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 520.
+
+LaTeX Warning: Reference `sec:crawler' on page 1 undefined on input line 533.
+
+
+LaTeX Warning: Reference `sec:database_and_web' on page 1 undefined on input line 533.
+
+
+LaTeX Warning: Reference `sec:search_engine' on page 1 undefined on input line 533.
+
+
+LaTeX Warning: Reference `sec:results' on page 1 undefined on input line 533.
+
+
+LaTeX Warning: Reference `sec:conclusion' on page 1 undefined on input line 533.
+
+
+LaTeX Warning: Reference `subsec:analysis_and_design' on page 1 undefined on input line 540.
+
+
+LaTeX Warning: Reference `subsec:analysis_and_design' on page 1 undefined on input line 540.
+
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9.53561> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 542.
+LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 545.
+
+Underfull \hbox (badness 10000) in paragraph at lines 545--546
+\OT1/ppl/m/n/9.53561 (https://stackoverflow.com/questions/$\OML/cmm/m/it/10 <$\OT1/ppl/m/n/9.53561 question[]id$\OML/cmm/m/it/10 >$\OT1/ppl/m/n/9.53561 ),
+ []
+
+
+LaTeX Warning: Reference `subsubsec: question_list_spider' on page 1 undefined on input line 552.
+
+
+LaTeX Warning: Reference `subsubsec: question answer spider' on page 1 undefined on input line 552.
+
+[1{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.53561> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 554.
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--558
+\OT1/ppl/m/n/9.53561 As for ques-tion list spi-der, whose logic is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--558
+\OT1/ppl/m/n/9.53561 rel-a-tively sim-ple, it starts from the base url
+ []
+
+
+LaTeX Warning: Reference `subsec:database' on page 2 undefined on input line 566.
+
+[2]
+
+LaTeX Warning: Reference `sec:search_engine' on page 3 undefined on input line 574.
+
+
+Underfull \hbox (badness 4441) in paragraph at lines 576--577
+[]\OT1/ppl/m/n/9.53561 At the end of this sub-sec-tion, we would like
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 576--577
+\OT1/ppl/m/n/9.53561 to share a very unique er-ror we en-coun-tered
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 576--577
+\OT1/ppl/m/n/9.53561 dur-ing crawl-ing the data. When our crawler
+ []
+
+
+Underfull \hbox (badness 6016) in paragraph at lines 576--577
+\OT1/ppl/m/n/9.53561 tries to crawl the fol-low-ing ques-tion de-tail page
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 576--577
+\OT1/ppl/m/n/9.53561 (https://stackoverflow.com/questions/44408405/sending-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 576--577
+\OT1/ppl/m/n/9.53561 get-variable-in-echo-meta-refresh), Scrapy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 576--577
+\OT1/ppl/m/n/9.53561 redi-rects the page to the fol-low-ing Link
+ []
+
+
+Underfull \hbox (badness 1701) in paragraph at lines 576--577
+\OT1/ppl/m/n/9.53561 the rea-son why this er-ror may oc-cur is as fol-lows,
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 576--577
+\OT1/ppl/m/n/9.53561 try to match the "http-equiv re-frsh" pa-ram-e-ter. Very
+ []
+
+
+LaTeX Warning: Reference `subsec:database' on page 3 undefined on input line 582.
+
+
+LaTeX Warning: Reference `subsec:web' on page 3 undefined on input line 582.
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 590--591
+[]\OT1/ppl/m/n/9.53561 SQLite is a C-language li-brary that im-ple-ments a
+ []
+
+[3]
+
+LaTeX Warning: Reference `subsubsec:design_overview' on page 4 undefined on input line 722.
+
+
+LaTeX Warning: Reference `subsubsec:web_implementation' on page 4 undefined on input line 722.
+
+
+LaTeX Warning: Reference `sec:search_engine' on page 4 undefined on input line 729.
+
+
+LaTeX Warning: Reference `subsubsec:web_implementation' on page 4 undefined on input line 729.
+
+[4]
+
+LaTeX Warning: Reference `fig:index' on page 5 undefined on input line 788.
+
+<images/inverted_index.png, id=24, 394.47375pt x 208.98074pt>
+File: images/inverted_index.png Graphic file (type png)
+<use images/inverted_index.png>
+Package pdftex.def Info: images/inverted_index.png  used on input line 791.
+(pdftex.def)             Requested size: 258.9675pt x 137.19429pt.
+
+Overfull \hbox (6.0225pt too wide) in paragraph at lines 791--792
+ [][] 
+ []
+
+<images/SPIMI-algo.png, id=26, 965.6075pt x 469.755pt>
+File: images/SPIMI-algo.png Graphic file (type png)
+<use images/SPIMI-algo.png>
+Package pdftex.def Info: images/SPIMI-algo.png  used on input line 801.
+(pdftex.def)             Requested size: 258.9675pt x 125.98256pt.
+
+Overfull \hbox (6.0225pt too wide) in paragraph at lines 801--802
+ [][] 
+ []
+
+[5 <./images/inverted_index.png>]
+<images/testsklearn.png, id=32, 2431.0825pt x 1890.06125pt>
+File: images/testsklearn.png Graphic file (type png)
+<use images/testsklearn.png>
+Package pdftex.def Info: images/testsklearn.png  used on input line 886.
+(pdftex.def)             Requested size: 258.9675pt x 201.33186pt.
+
+Overfull \hbox (6.0225pt too wide) in paragraph at lines 886--887
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 883--888
+
+ []
+
+
+Underfull \vbox (badness 6094) has occurred while \output is active []
+
+ [6 <./images/SPIMI-algo.png>]
+<images/whooshsklearn.png, id=41, 707.64375pt x 539.01375pt>
+File: images/whooshsklearn.png Graphic file (type png)
+<use images/whooshsklearn.png>
+Package pdftex.def Info: images/whooshsklearn.png  used on input line 892.
+(pdftex.def)             Requested size: 258.9675pt x 197.26064pt.
+
+Overfull \hbox (6.0225pt too wide) in paragraph at lines 892--893
+ [][] 
+ []
+
+<images/large_index.png, id=42, 1445.4pt x 782.925pt>
+File: images/large_index.png Graphic file (type png)
+<use images/large_index.png>
+Package pdftex.def Info: images/large_index.png  used on input line 904.
+(pdftex.def)             Requested size: 517.935pt x 280.55061pt.
+<images/large_detail.png, id=43, 1445.4pt x 782.925pt>
+File: images/large_detail.png Graphic file (type png)
+<use images/large_detail.png>
+Package pdftex.def Info: images/large_detail.png  used on input line 911.
+(pdftex.def)             Requested size: 517.935pt x 280.55061pt.
+<images/large_search.png, id=44, 1445.4pt x 782.925pt>
+File: images/large_search.png Graphic file (type png)
+<use images/large_search.png>
+Package pdftex.def Info: images/large_search.png  used on input line 918.
+(pdftex.def)             Requested size: 517.935pt x 280.55061pt.
+No file report.bbl.
+[7
+
+ <./images/testsklearn.png> <./images/whooshsklearn.png>] [8 <./images/large_index.PNG> <./images/large_detail.PNG>] [9 <./images/large_search.PNG>] (./report.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3747 strings out of 492639
+ 56689 string characters out of 6133088
+ 132429 words of memory out of 5000000
+ 7556 multiletter control sequences out of 15000+600000
+ 44281 words of font info for 97 fonts, out of 8000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 41i,9n,31p,1423b,278s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on report.pdf (9 pages, 970990 bytes).
+PDF statistics:
+ 106 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+
