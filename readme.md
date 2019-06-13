@@ -24,7 +24,7 @@ Web Search and Mining - StackOverflow Search
     python -m nltk.downloader stopwords punkt
     ```
 
-3. Download the database (and config file) from this [link](https://pan.baidu.com/s/1lCxzOB9GWIRqG1L4Zf8eYg) (extraction code: qgao) and place it under directory ```SOSearch/```. We provide two types of databases, one containing only raw data and the other containing both data and indexes (and also Django fields). Each type of the database has three specifications, which are small (5k), medium (10k) and large (30k).
+3. Download the database (and config file) from this [link](https://pan.baidu.com/s/1lCxzOB9GWIRqG1L4Zf8eYg) (extraction code: qgao) and place it under directory ```SOSearch/```. We provide two types of databases, one containing only raw data and the other containing both data and indexes (and also Django fields). Each type of the database has three specifications, which are small (5k), medium (100k) and large (300k).
 
 4. Change the settings in the following files according to the database you choose.
 

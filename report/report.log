@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.11.2)  13 JUN 2019 22:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.11.2)  14 JUN 2019 00:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -144,7 +144,29 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 (c:/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip48
 \subfig@bottom=\skip49
-) (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count99
+\lst@gtempboxa=\box28
+\lst@token=\toks16
+\lst@length=\count100
+\lst@currlwidth=\dimen130
+\lst@column=\count101
+\lst@pos=\count102
+\lst@lostspace=\dimen131
+\lst@width=\dimen132
+\lst@newlines=\count103
+\lst@lineno=\count104
+\lst@maxwidth=\dimen133
+ (c:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count105
+\lst@skipnumbers=\count106
+\lst@framebox=\box29
+) (c:/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2018/09/02 1.7 listings configuration
+))
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
+ (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip50
 
@@ -153,136 +175,136 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2000/06/29 v2.01 AMS text
  (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks16
-\ex@=\dimen130
+\@emptytoks=\toks17
+\ex@=\dimen134
 )) (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen131
+\pmbraise@=\dimen135
 ) (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count99
+\inf@bad=\count107
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count100
-\leftroot@=\count101
+\uproot@=\count108
+\leftroot@=\count109
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count102
-\DOTSCASE@=\count103
+\classnum@=\count110
+\DOTSCASE@=\count111
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box28
-\strutbox@=\box29
-\big@size=\dimen132
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen136
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count104
-\c@MaxMatrixCols=\count105
+\macc@depth=\count112
+\c@MaxMatrixCols=\count113
 \dotsspace@=\muskip10
-\c@parentequation=\count106
-\dspbrk@lvl=\count107
-\tag@help=\toks17
-\row@=\count108
-\column@=\count109
-\maxfields@=\count110
-\andhelp@=\toks18
-\eqnshift@=\dimen133
-\alignsep@=\dimen134
-\tagshift@=\dimen135
-\tagwidth@=\dimen136
-\totwidth@=\dimen137
-\lineht@=\dimen138
-\@envbody=\toks19
+\c@parentequation=\count114
+\dspbrk@lvl=\count115
+\tag@help=\toks18
+\row@=\count116
+\column@=\count117
+\maxfields@=\count118
+\andhelp@=\toks19
+\eqnshift@=\dimen137
+\alignsep@=\dimen138
+\tagshift@=\dimen139
+\tagwidth@=\dimen140
+\totwidth@=\dimen141
+\lineht@=\dimen142
+\@envbody=\toks20
 \multlinegap=\skip51
 \multlinetaggap=\skip52
-\mathdisplay@stack=\toks20
+\mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 ) (c:/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks21
-\thm@bodyfont=\toks22
-\thm@headfont=\toks23
-\thm@notefont=\toks24
-\thm@headpunct=\toks25
+\thm@style=\toks22
+\thm@bodyfont=\toks23
+\thm@headfont=\toks24
+\thm@notefont=\toks25
+\thm@headpunct=\toks26
 \thm@preskip=\skip53
 \thm@postskip=\skip54
 \thm@headsep=\skip55
-\dth@everypar=\toks26
+\dth@everypar=\toks27
 ) (c:/texlive/2018/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
  (c:/texlive/2018/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count111
-\float@exts=\toks27
-\float@box=\box30
-\@float@everytoks=\toks28
-\@floatcapt=\box31
+\c@float@type=\count119
+\float@exts=\toks28
+\float@box=\box32
+\@float@everytoks=\toks29
+\@floatcapt=\box33
 ) (c:/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks29
-\c@algorithm=\count112
+\@float@every@algorithm=\toks30
+\c@algorithm=\count120
 ) (c:/texlive/2018/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count113
-\c@ALC@line=\count114
-\c@ALC@rem=\count115
-\c@ALC@depth=\count116
+\c@ALC@unique=\count121
+\c@ALC@line=\count122
+\c@ALC@rem=\count123
+\c@ALC@depth=\count124
 \ALC@tlm=\skip56
 \algorithmicindent=\skip57
 ) (c:/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen139
-\lightrulewidth=\dimen140
-\cmidrulewidth=\dimen141
-\belowrulesep=\dimen142
-\belowbottomsep=\dimen143
-\aboverulesep=\dimen144
-\abovetopsep=\dimen145
-\cmidrulesep=\dimen146
-\cmidrulekern=\dimen147
-\defaultaddspace=\dimen148
-\@cmidla=\count117
-\@cmidlb=\count118
-\@aboverulesep=\dimen149
-\@belowrulesep=\dimen150
-\@thisruleclass=\count119
-\@lastruleclass=\count120
-\@thisrulewidth=\dimen151
+\heavyrulewidth=\dimen143
+\lightrulewidth=\dimen144
+\cmidrulewidth=\dimen145
+\belowrulesep=\dimen146
+\belowbottomsep=\dimen147
+\aboverulesep=\dimen148
+\abovetopsep=\dimen149
+\cmidrulesep=\dimen150
+\cmidrulekern=\dimen151
+\defaultaddspace=\dimen152
+\@cmidla=\count125
+\@cmidlb=\count126
+\@aboverulesep=\dimen153
+\@belowrulesep=\dimen154
+\@thisruleclass=\count127
+\@lastruleclass=\count128
+\@thisrulewidth=\dimen155
 ) (c:/texlive/2018/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-No file report.aux.
+) (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 377.
-LaTeX Font Info:    ... okay on input line 377.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 377.
-LaTeX Font Info:    ... okay on input line 377.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 377.
-LaTeX Font Info:    ... okay on input line 377.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 377.
-LaTeX Font Info:    ... okay on input line 377.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 377.
-LaTeX Font Info:    ... okay on input line 377.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 377.
-LaTeX Font Info:    ... okay on input line 377.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 378.
+LaTeX Font Info:    ... okay on input line 378.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 378.
+LaTeX Font Info:    ... okay on input line 378.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 378.
+LaTeX Font Info:    ... okay on input line 378.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 378.
+LaTeX Font Info:    ... okay on input line 378.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 378.
+LaTeX Font Info:    ... okay on input line 378.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 378.
+LaTeX Font Info:    ... okay on input line 378.
+
 -- Lines per column: 61 (exact).
 (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count121
-\scratchdimen=\dimen152
-\scratchbox=\box32
-\nofMPsegments=\count122
-\nofMParguments=\count123
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count124
-\MPscratchDim=\dimen153
-\MPnumerator=\count125
-\makeMPintoPDFobject=\count126
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count129
+\scratchdimen=\dimen156
+\scratchbox=\box34
+\nofMPsegments=\count130
+\nofMParguments=\count131
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count132
+\MPscratchDim=\dimen157
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
+\everyMPtoPDFconversion=\toks32
 ) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
@@ -324,245 +346,214 @@ Package grfext Info: Graphics extension search list:
  (c:/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 492.
+\c@lstlisting=\count135
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 493.
  (c:/texlive/2018/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 492.
-LaTeX Font Info:    Try loading font information for U+pzd on input line 492.
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 493.
+LaTeX Font Info:    Try loading font information for U+pzd on input line 493.
  (c:/texlive/2018/texmf-dist/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
-LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 492.
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 493.
 
-Underfull \hbox (badness 2173) in paragraph at lines 492--492
+Underfull \hbox (badness 2173) in paragraph at lines 493--493
 []\OT1/ppl/m/it/8.03 Database Link: https://pan.baidu.com/s/1lCxzOB9GWIRqG1L4Zf8eYg
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <11.04124> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 520.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 521.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <11.04124> not available
-(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 520.
-
-LaTeX Warning: Reference `sec:crawler' on page 1 undefined on input line 533.
-
-
-LaTeX Warning: Reference `sec:database_and_web' on page 1 undefined on input line 533.
-
-
-LaTeX Warning: Reference `sec:search_engine' on page 1 undefined on input line 533.
-
-
-LaTeX Warning: Reference `sec:results' on page 1 undefined on input line 533.
-
-
-LaTeX Warning: Reference `sec:conclusion' on page 1 undefined on input line 533.
-
-
-LaTeX Warning: Reference `subsec:analysis_and_design' on page 1 undefined on input line 540.
-
-
-LaTeX Warning: Reference `subsec:analysis_and_design' on page 1 undefined on input line 540.
-
+(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 521.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9.53561> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 542.
-LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 545.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 543.
+LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 546.
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--546
-\OT1/ppl/m/n/9.53561 (https://stackoverflow.com/questions/$\OML/cmm/m/it/10 <$\OT1/ppl/m/n/9.53561 question[]id$\OML/cmm/m/it/10 >$\OT1/ppl/m/n/9.53561 ),
+Underfull \hbox (badness 1708) in paragraph at lines 546--547
+\OT1/ppl/m/n/9.53561 The goal of the crawler is to crawl at least 2-year
  []
 
 
-LaTeX Warning: Reference `subsubsec: question_list_spider' on page 1 undefined on input line 552.
+Underfull \hbox (badness 1484) in paragraph at lines 546--547
+\OT1/ppl/m/n/9.53561 crawlers, we care-fully ex-am-ined the site struc-ture of
+ []
 
 
-LaTeX Warning: Reference `subsubsec: question answer spider' on page 1 undefined on input line 552.
+Underfull \hbox (badness 10000) in paragraph at lines 546--547
+\OT1/ppl/m/n/9.53561 (https://stackoverflow.com/questions/$\OML/cmm/m/it/10 <$\OT1/ppl/m/n/9.53561 question[]id$\OML/cmm/m/it/10 >$\OT1/ppl/m/n/9.53561 ),
+ []
 
 [1{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.53561> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 554.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 555.
 
-Underfull \hbox (badness 10000) in paragraph at lines 557--558
+Underfull \hbox (badness 10000) in paragraph at lines 558--559
 \OT1/ppl/m/n/9.53561 As for ques-tion list spi-der, whose logic is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 557--558
+Underfull \hbox (badness 10000) in paragraph at lines 558--559
 \OT1/ppl/m/n/9.53561 rel-a-tively sim-ple, it starts from the base url
  []
 
-
-LaTeX Warning: Reference `subsec:database' on page 2 undefined on input line 566.
-
 [2]
-
-LaTeX Warning: Reference `sec:search_engine' on page 3 undefined on input line 574.
-
-
-Underfull \hbox (badness 4441) in paragraph at lines 576--577
+Underfull \hbox (badness 4441) in paragraph at lines 577--578
 []\OT1/ppl/m/n/9.53561 At the end of this sub-sec-tion, we would like
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 576--577
+Underfull \hbox (badness 10000) in paragraph at lines 577--578
 \OT1/ppl/m/n/9.53561 to share a very unique er-ror we en-coun-tered
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 576--577
+Underfull \hbox (badness 10000) in paragraph at lines 577--578
 \OT1/ppl/m/n/9.53561 dur-ing crawl-ing the data. When our crawler
  []
 
 
-Underfull \hbox (badness 6016) in paragraph at lines 576--577
+Underfull \hbox (badness 6016) in paragraph at lines 577--578
 \OT1/ppl/m/n/9.53561 tries to crawl the fol-low-ing ques-tion de-tail page
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 576--577
+Underfull \hbox (badness 10000) in paragraph at lines 577--578
 \OT1/ppl/m/n/9.53561 (https://stackoverflow.com/questions/44408405/sending-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 576--577
+Underfull \hbox (badness 10000) in paragraph at lines 577--578
 \OT1/ppl/m/n/9.53561 get-variable-in-echo-meta-refresh), Scrapy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 576--577
-\OT1/ppl/m/n/9.53561 redi-rects the page to the fol-low-ing Link
+Underfull \hbox (badness 10000) in paragraph at lines 577--578
+\OT1/ppl/m/n/9.53561 redi-rects the page to the fol-low-ing link
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 576--577
-\OT1/ppl/m/n/9.53561 the rea-son why this er-ror may oc-cur is as fol-lows,
+Underfull \hbox (badness 10000) in paragraph at lines 577--578
+\OT1/ppl/m/n/9.53561 (https://en.wikipedia.org/wiki/.$[]GET['w']). Af-ter
  []
 
 
-Underfull \hbox (badness 1478) in paragraph at lines 576--577
+Underfull \hbox (badness 5832) in paragraph at lines 577--578
+\OT1/ppl/m/n/9.53561 our care-ful in-spec-tion, we found that the rea-son
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 577--578
+\OT1/ppl/m/n/9.53561 why this er-ror may oc-cur is as fol-lows, the de-fault
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--578
+\OT1/ppl/m/n/9.53561 opened meta re-fresh mid-dle-ware of Scrapy will
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 577--578
+\OT1/ppl/m/n/9.53561 check the first 4096 char-ac-ters of the re-ponse, and
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 577--578
 \OT1/ppl/m/n/9.53561 try to match the "http-equiv re-frsh" pa-ram-e-ter. Very
  []
 
 
-LaTeX Warning: Reference `subsec:database' on page 3 undefined on input line 582.
-
-
-LaTeX Warning: Reference `subsec:web' on page 3 undefined on input line 582.
-
-
-Underfull \hbox (badness 1484) in paragraph at lines 590--591
+Underfull \hbox (badness 1484) in paragraph at lines 591--592
 []\OT1/ppl/m/n/9.53561 SQLite is a C-language li-brary that im-ple-ments a
  []
 
-[3]
 
-LaTeX Warning: Reference `subsubsec:design_overview' on page 4 undefined on input line 722.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-LaTeX Warning: Reference `subsubsec:web_implementation' on page 4 undefined on input line 722.
-
-
-LaTeX Warning: Reference `sec:search_engine' on page 4 undefined on input line 729.
-
-
-LaTeX Warning: Reference `subsubsec:web_implementation' on page 4 undefined on input line 729.
-
-[4]
-
-LaTeX Warning: Reference `fig:index' on page 5 undefined on input line 788.
-
+ [3] [4]
 <images/inverted_index.png, id=24, 394.47375pt x 208.98074pt>
 File: images/inverted_index.png Graphic file (type png)
 <use images/inverted_index.png>
-Package pdftex.def Info: images/inverted_index.png  used on input line 791.
+Package pdftex.def Info: images/inverted_index.png  used on input line 792.
 (pdftex.def)             Requested size: 258.9675pt x 137.19429pt.
 
-Overfull \hbox (6.0225pt too wide) in paragraph at lines 791--792
+Overfull \hbox (6.0225pt too wide) in paragraph at lines 792--793
  [][] 
  []
 
-<images/SPIMI-algo.png, id=26, 965.6075pt x 469.755pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+<images/SPIMI-algo.png, id=30, 965.6075pt x 469.755pt>
 File: images/SPIMI-algo.png Graphic file (type png)
 <use images/SPIMI-algo.png>
-Package pdftex.def Info: images/SPIMI-algo.png  used on input line 801.
+Package pdftex.def Info: images/SPIMI-algo.png  used on input line 802.
 (pdftex.def)             Requested size: 258.9675pt x 125.98256pt.
 
-Overfull \hbox (6.0225pt too wide) in paragraph at lines 801--802
+Overfull \hbox (6.0225pt too wide) in paragraph at lines 802--803
  [][] 
  []
 
-[5 <./images/inverted_index.png>]
-<images/testsklearn.png, id=32, 2431.0825pt x 1890.06125pt>
+[6 <./images/inverted_index.png> <./images/SPIMI-algo.png>]
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 872.
+ (c:/texlive/2018/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <9.53561> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 872.
+<images/testsklearn.png, id=41, 2431.0825pt x 1890.06125pt>
 File: images/testsklearn.png Graphic file (type png)
 <use images/testsklearn.png>
-Package pdftex.def Info: images/testsklearn.png  used on input line 886.
+Package pdftex.def Info: images/testsklearn.png  used on input line 925.
 (pdftex.def)             Requested size: 258.9675pt x 201.33186pt.
 
-Overfull \hbox (6.0225pt too wide) in paragraph at lines 886--887
+Overfull \hbox (6.0225pt too wide) in paragraph at lines 925--926
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 883--888
+Underfull \hbox (badness 10000) in paragraph at lines 922--927
 
  []
 
-
-Underfull \vbox (badness 6094) has occurred while \output is active []
-
- [6 <./images/SPIMI-algo.png>]
-<images/whooshsklearn.png, id=41, 707.64375pt x 539.01375pt>
+<images/whooshsklearn.png, id=42, 707.64375pt x 539.01375pt>
 File: images/whooshsklearn.png Graphic file (type png)
 <use images/whooshsklearn.png>
-Package pdftex.def Info: images/whooshsklearn.png  used on input line 892.
+Package pdftex.def Info: images/whooshsklearn.png  used on input line 931.
 (pdftex.def)             Requested size: 258.9675pt x 197.26064pt.
 
-Overfull \hbox (6.0225pt too wide) in paragraph at lines 892--893
+Overfull \hbox (6.0225pt too wide) in paragraph at lines 931--932
  [][] 
  []
 
-<images/large_index.png, id=42, 1445.4pt x 782.925pt>
-File: images/large_index.png Graphic file (type png)
-<use images/large_index.png>
-Package pdftex.def Info: images/large_index.png  used on input line 904.
-(pdftex.def)             Requested size: 517.935pt x 280.55061pt.
-<images/large_detail.png, id=43, 1445.4pt x 782.925pt>
-File: images/large_detail.png Graphic file (type png)
-<use images/large_detail.png>
-Package pdftex.def Info: images/large_detail.png  used on input line 911.
-(pdftex.def)             Requested size: 517.935pt x 280.55061pt.
-<images/large_search.png, id=44, 1445.4pt x 782.925pt>
-File: images/large_search.png Graphic file (type png)
-<use images/large_search.png>
-Package pdftex.def Info: images/large_search.png  used on input line 918.
-(pdftex.def)             Requested size: 517.935pt x 280.55061pt.
-No file report.bbl.
-[7
 
- <./images/testsklearn.png> <./images/whooshsklearn.png>] [8 <./images/large_index.PNG> <./images/large_detail.PNG>] [9 <./images/large_search.PNG>] (./report.aux)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: There were undefined references.
+ [7 <./images/testsklearn.png>] (./report.bbl
+LaTeX Font Info:    Font shape `OMS/ppl/m/it' in size <8.03> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <8.03> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
+) [8
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ <./images/whooshsklearn.png>] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 3747 strings out of 492639
- 56689 string characters out of 6133088
- 132429 words of memory out of 5000000
- 7556 multiletter control sequences out of 15000+600000
- 44281 words of font info for 97 fonts, out of 8000000 for 9000
+ 5361 strings out of 492639
+ 77795 string characters out of 6133088
+ 159296 words of memory out of 5000000
+ 9153 multiletter control sequences out of 15000+600000
+ 45383 words of font info for 99 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 41i,9n,31p,1423b,278s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on report.pdf (9 pages, 970990 bytes).
+ 41i,9n,32p,1423b,1213s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on report.pdf (8 pages, 671576 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 101 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
